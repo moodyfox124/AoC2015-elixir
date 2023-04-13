@@ -29,7 +29,7 @@ defmodule Aoc2015d1 do
   end
 
   defp read_input_data() do
-    {:ok, data} = File.read("day1.txt")
+    {:ok, data} = File.read("./input_data/day1.txt")
     data
   end
 end
